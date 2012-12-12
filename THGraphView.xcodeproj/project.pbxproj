@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F67F6EBC1678EC4500A519C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67F6EBB1678EC4500A519C2 /* UIKit.framework */; };
+		F67F6EBE1678EC4500A519C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67F6EBD1678EC4500A519C2 /* Foundation.framework */; };
+		F67F6EC01678EC4500A519C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67F6EBF1678EC4500A519C2 /* CoreGraphics.framework */; };
+		F67F6EC61678EC4600A519C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F67F6EC41678EC4600A519C2 /* InfoPlist.strings */; };
+		F67F6EC81678EC4600A519C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F67F6EC71678EC4600A519C2 /* main.m */; };
+		F67F6ECC1678EC4600A519C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F67F6ECB1678EC4600A519C2 /* AppDelegate.m */; };
+		F67F6ECE1678EC4600A519C2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F67F6ECD1678EC4600A519C2 /* Default.png */; };
+		F67F6ED01678EC4600A519C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67F6ECF1678EC4600A519C2 /* Default@2x.png */; };
+		F67F6ED21678EC4600A519C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67F6ED11678EC4600A519C2 /* Default-568h@2x.png */; };
+		F67F6ED51678EC4600A519C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F67F6ED41678EC4600A519C2 /* ViewController.m */; };
+		F67F6ED81678EC4600A519C2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67F6ED61678EC4600A519C2 /* ViewController_iPhone.xib */; };
+		F67F6EDB1678EC4600A519C2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F67F6ED91678EC4600A519C2 /* ViewController_iPad.xib */; };
+		F67F6EE51678ECA500A519C2 /* THGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = F67F6EE41678ECA500A519C2 /* THGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F67F6EB71678EC4500A519C2 /* THGraphView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THGraphView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67F6EBB1678EC4500A519C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F67F6EBD1678EC4500A519C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F67F6EBF1678EC4500A519C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F67F6EC31678EC4600A519C2 /* THGraphView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THGraphView-Info.plist"; sourceTree = "<group>"; };
+		F67F6EC51678EC4600A519C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F67F6EC71678EC4600A519C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F67F6EC91678EC4600A519C2 /* THGraphView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THGraphView-Prefix.pch"; sourceTree = "<group>"; };
+		F67F6ECA1678EC4600A519C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F67F6ECB1678EC4600A519C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F67F6ECD1678EC4600A519C2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F67F6ECF1678EC4600A519C2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F67F6ED11678EC4600A519C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F67F6ED31678EC4600A519C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F67F6ED41678EC4600A519C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F67F6ED71678EC4600A519C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F67F6EDA1678EC4600A519C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		F67F6EE31678ECA500A519C2 /* THGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THGraphView.h; sourceTree = "<group>"; };
+		F67F6EE41678ECA500A519C2 /* THGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THGraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67F6EB41678EC4500A519C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67F6EBC1678EC4500A519C2 /* UIKit.framework in Frameworks */,
+				F67F6EBE1678EC4500A519C2 /* Foundation.framework in Frameworks */,
+				F67F6EC01678EC4500A519C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F67F6EAC1678EC4500A519C2 = {
+			isa = PBXGroup;
+			children = (
+				F67F6EC11678EC4500A519C2 /* THGraphView */,
+				F67F6EBA1678EC4500A519C2 /* Frameworks */,
+				F67F6EB81678EC4500A519C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F67F6EB81678EC4500A519C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67F6EB71678EC4500A519C2 /* THGraphView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F67F6EBA1678EC4500A519C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F67F6EBB1678EC4500A519C2 /* UIKit.framework */,
+				F67F6EBD1678EC4500A519C2 /* Foundation.framework */,
+				F67F6EBF1678EC4500A519C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67F6EC11678EC4500A519C2 /* THGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				F67F6ECA1678EC4600A519C2 /* AppDelegate.h */,
+				F67F6ECB1678EC4600A519C2 /* AppDelegate.m */,
+				F67F6ED31678EC4600A519C2 /* ViewController.h */,
+				F67F6ED41678EC4600A519C2 /* ViewController.m */,
+				F67F6ED61678EC4600A519C2 /* ViewController_iPhone.xib */,
+				F67F6ED91678EC4600A519C2 /* ViewController_iPad.xib */,
+				F67F6EC21678EC4600A519C2 /* Supporting Files */,
+				F67F6EE31678ECA500A519C2 /* THGraphView.h */,
+				F67F6EE41678ECA500A519C2 /* THGraphView.m */,
+			);
+			path = THGraphView;
+			sourceTree = "<group>";
+		};
+		F67F6EC21678EC4600A519C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F67F6EC31678EC4600A519C2 /* THGraphView-Info.plist */,
+				F67F6EC41678EC4600A519C2 /* InfoPlist.strings */,
+				F67F6EC71678EC4600A519C2 /* main.m */,
+				F67F6EC91678EC4600A519C2 /* THGraphView-Prefix.pch */,
+				F67F6ECD1678EC4600A519C2 /* Default.png */,
+				F67F6ECF1678EC4600A519C2 /* Default@2x.png */,
+				F67F6ED11678EC4600A519C2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67F6EB61678EC4500A519C2 /* THGraphView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67F6EDE1678EC4600A519C2 /* Build configuration list for PBXNativeTarget "THGraphView" */;
+			buildPhases = (
+				F67F6EB31678EC4500A519C2 /* Sources */,
+				F67F6EB41678EC4500A519C2 /* Frameworks */,
+				F67F6EB51678EC4500A519C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THGraphView;
+			productName = THGraphView;
+			productReference = F67F6EB71678EC4500A519C2 /* THGraphView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F67F6EAE1678EC4500A519C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Thomas Hoddes";
+			};
+			buildConfigurationList = F67F6EB11678EC4500A519C2 /* Build configuration list for PBXProject "THGraphView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F67F6EAC1678EC4500A519C2;
+			productRefGroup = F67F6EB81678EC4500A519C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67F6EB61678EC4500A519C2 /* THGraphView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67F6EB51678EC4500A519C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67F6EC61678EC4600A519C2 /* InfoPlist.strings in Resources */,
+				F67F6ECE1678EC4600A519C2 /* Default.png in Resources */,
+				F67F6ED01678EC4600A519C2 /* Default@2x.png in Resources */,
+				F67F6ED21678EC4600A519C2 /* Default-568h@2x.png in Resources */,
+				F67F6ED81678EC4600A519C2 /* ViewController_iPhone.xib in Resources */,
+				F67F6EDB1678EC4600A519C2 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67F6EB31678EC4500A519C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67F6EC81678EC4600A519C2 /* main.m in Sources */,
+				F67F6ECC1678EC4600A519C2 /* AppDelegate.m in Sources */,
+				F67F6ED51678EC4600A519C2 /* ViewController.m in Sources */,
+				F67F6EE51678ECA500A519C2 /* THGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F67F6EC41678EC4600A519C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67F6EC51678EC4600A519C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F67F6ED61678EC4600A519C2 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67F6ED71678EC4600A519C2 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F67F6ED91678EC4600A519C2 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67F6EDA1678EC4600A519C2 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F67F6EDC1678EC4600A519C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F67F6EDD1678EC4600A519C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F67F6EDF1678EC4600A519C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THGraphView/THGraphView-Prefix.pch";
+				INFOPLIST_FILE = "THGraphView/THGraphView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F67F6EE01678EC4600A519C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THGraphView/THGraphView-Prefix.pch";
+				INFOPLIST_FILE = "THGraphView/THGraphView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67F6EB11678EC4500A519C2 /* Build configuration list for PBXProject "THGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67F6EDC1678EC4600A519C2 /* Debug */,
+				F67F6EDD1678EC4600A519C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67F6EDE1678EC4600A519C2 /* Build configuration list for PBXNativeTarget "THGraphView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67F6EDF1678EC4600A519C2 /* Debug */,
+				F67F6EE01678EC4600A519C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F67F6EAE1678EC4500A519C2 /* Project object */;
+}

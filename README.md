@@ -8,7 +8,9 @@ This is a very basic start. Constant x-axis intervals are assumed so you just su
 Example usage:
 
 //init the view outside of real-time update
+
 _graphView = [[THGraphView alloc] initWithNumPoints:NUM_POINTS];
+
 _graphView.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
 
 ...

@@ -17,7 +17,6 @@
 
 - (void) updateGraph
 {
-    NSLog(@"test");
     for(int i=0;i<NUM_POINTS;i++)
     {
         y[i]=sin((2.0*M_PI*i+offset)/NUM_POINTS);
@@ -30,8 +29,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    _graphView = [[THGraphView alloc] initWithNumPoints:NUM_POINTS];
-    _graphView.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
+    self.graphView = [[[THGraphView alloc] initWithNumPoints:NUM_POINTS] autorelease];
+    self.graphView.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
     [self.view addSubview:_graphView];
     y = malloc(sizeof(float)*NUM_POINTS);
     offset = 0;

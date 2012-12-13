@@ -27,7 +27,7 @@
 
 -(void)dealloc
 {
-    
+    free(points);
 	[super dealloc];
 }
 

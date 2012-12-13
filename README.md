@@ -18,3 +18,5 @@ _graphView.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.siz
 //update the view, y is a float pointer with >= NUM_POINTS
 
 [_graphView updateGraphWithY:y];
+
+![screenshot](https://raw.github.com/hoddez/THGraphView/master/example.png)
